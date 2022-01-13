@@ -25,7 +25,6 @@ public class Practica3DDSI {
         try{
             sentencia = conexion.createStatement();
             ResultSet res = sentencia.executeQuery(ranking);
-            ResultSet res2 = sentencia.executeQuery()
             System.out.println("\t" + "------------- RANKING -------------");
             System.out.println("\t" + "DNI Tenista\t" + "Posición\t" + "Edición\t");
             imprimirResultado(res, 3);
